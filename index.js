@@ -34,7 +34,7 @@ function viewCart() {
       var price= item[key]
       concat.push(" "+ key + " at $" + price)
     })
-    concat[-1] =
+    concat[concat.length -1] = "and" + concat[concat.length -1] + "."
     console.log("In your cart, you have" + concat)
   }
 }
