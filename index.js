@@ -28,12 +28,13 @@ function viewCart() {
     const price1 = cart[1][Object.keys(cart[1])]
     console.log(`In your cart, you have ${Object.keys(cart[0])} at $${price} and ${Object.keys(cart[1])} at $${price1}.`)
   }else {
+    var concat = []
     cart.forEach(function(item,index){
       var key = Object.keys(item)[0]
       var price= item[key]
       concat.push(" "+ key + " at $" + price)
     })
-    concat[-1] = 
+    concat[-1] =
     console.log("In your cart, you have" + concat)
   }
 }
