@@ -64,7 +64,7 @@ function removeFromCart(item) {
     }else {
     }
   })
-
+/*
   for (var i = 0; i < cart.length; i++) {
     var obj = cart[i]
     if (obj.hasOwnProperty(item)) {
@@ -72,6 +72,7 @@ function removeFromCart(item) {
     }else {
     }
   }
+*/
   if (orginalLength === cart.length){
     console.log("That item is not in your cart.")
   }else {
