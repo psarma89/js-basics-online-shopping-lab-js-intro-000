@@ -57,6 +57,14 @@ function total() {
 
 function removeFromCart(item) {
   var orginalLength = cart.length
+
+  cart.forEach(function(item,index){
+    if (item.hasOwnProperty(item)) {
+      cart.splice(index,1)
+    }else {
+    }
+  })
+
   for (var i = 0; i < cart.length; i++) {
     var obj = cart[i]
     if (obj.hasOwnProperty(item)) {
