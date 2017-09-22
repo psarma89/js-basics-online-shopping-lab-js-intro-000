@@ -47,10 +47,11 @@ function total() {
     var key = Object.keys(item)[0]
     total += item[key]
   })
-  for (var i = 0; i < cart.length; i++) {
+/*  for (var i = 0; i < cart.length; i++) {
     var key = Object.keys(cart[i])[0]
     total += cart[i][key]
   }
+*/  
   return total
 }
 
