@@ -51,7 +51,7 @@ function total() {
     var key = Object.keys(cart[i])[0]
     total += cart[i][key]
   }
-*/  
+*/
   return total
 }
 
