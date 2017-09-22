@@ -1,4 +1,4 @@
-//var cart = [{oranges: 5}, {mango:4}, {banana:5}];
+var cart = [{oranges: 5}, {mango:4}, {banana:5}];
 //var cart = [{mango:4}, {banana:5}];
 var cart = []
 
