@@ -31,9 +31,9 @@ function viewCart() {
     var lastItemKey = Object.keys(cart[cart.length -1])[0]
     var lastItemPrice = " and " + lastItemKey + " at $" + cart[cart.length -1][lastItemKey] + "."
     var concat = []
-    for (var i = 0; i < cart.length-1; i++) {
-      var key = Object.keys(cart[i])[0]
-      var price = cart[i][key]
+    cart.forEach(item,index){
+      var key = Object.keys(item)[0]
+      var price= item[key]
       concat.push(" "+ key + " at $" + price)
     }
     concat.push(lastItemPrice)
