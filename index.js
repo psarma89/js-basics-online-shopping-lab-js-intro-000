@@ -1,6 +1,6 @@
 var cart = [{oranges: 5}, {mango:4}, {banana:5}];
 //var cart = [{mango:4}, {banana:5}];
-var cart = []
+//var cart = []
 
 function getCart() {
  return cart;
