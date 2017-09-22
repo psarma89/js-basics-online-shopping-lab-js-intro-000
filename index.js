@@ -33,7 +33,7 @@ function viewCart() {
       var price= item[key]
       concat.push(" "+ key + " at $" + price)
     })
-    concat.push(lastItemPrice)
+    concat[-1] = 
     console.log("In your cart, you have" + concat)
   }
 }
