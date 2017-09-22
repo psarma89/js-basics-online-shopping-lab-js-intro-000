@@ -58,8 +58,8 @@ function total() {
 function removeFromCart(item) {
   var orginalLength = cart.length
 
-  cart.forEach(function(item,index){
-    if (item.hasOwnProperty(item)) {
+  cart.forEach(function(gorceryItem,index){
+    if (groceryItem.hasOwnProperty(item)) {
       cart.splice(index,1)
     }else {
     }
