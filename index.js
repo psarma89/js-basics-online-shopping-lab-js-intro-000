@@ -43,6 +43,10 @@ function viewCart() {
 
 function total() {
   var total = 0
+  cart.forEach(function(item,index){
+    var key = Object.keys(item)[0]
+    total += item[key]
+  })
   for (var i = 0; i < cart.length; i++) {
     var key = Object.keys(cart[i])[0]
     total += cart[i][key]
